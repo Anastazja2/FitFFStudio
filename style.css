@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #003366;
+    color: white;
+    margin: 0;
+    padding: 0;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+header {
+    background-color: #003366;
+    text-align: center;
+}
+
+header .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Выравнивание по краям */
+    padding: 10px 20px; /* Добавим отступы для более красивого вида */
+}
+
+header .head a {
+    display: flex;
+    align-items: center;
+}
+
+header .head img {
+    height: 100px;
+    margin-right: 10px;
+}
+
+header p {
+    margin: 0 20px;
+    font-size: 1.2em;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.active {
+    color: grey;
+}
+
+main {
+    text-align: center;
+    padding: 50px;
+    max-width: 1024px;
+    margin: 0 auto; /* Добавляем это свойство */
+}
+
+.intro {
+    display: flex;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.intro img {
+    width: 30%;
+    border-radius: 10px;
+    margin: 10px;
+    height: max-content;
+}
+
+.services,
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.benefit-item,
+.service-item,
+button {
+    color: white;
+    background-color: #003366;
+    border: 2px solid #0055a5;
+    border-radius: 10px;
+    padding: 15px 20px;
+    flex: 1;
+    margin: 0 5px;
+    box-sizing: border-box;
+    font-size: 1.2em;
+}
+
+.trainers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.trainer {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.trainer img {
+    width: 100%;
+    height: auto;
+}
+
+.trainer h2 {
+    border-top: 2px solid white;
+}
+
+.trainer img {
+    border-radius: 10px;
+}
+
+.trainer p {
+    text-align: left;
+}
+
+.trainers_img {
+    display: flex;
+}
+
+.trainers_img .trainer {
+    position: relative;
+}
+
+.trainers_img .trainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contact-info {
+    display: inline-flex;
+    align-items: center;
+}
+
+.contact-info div {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.contact-form {
+    padding: 20px;
+    max-width: 600px;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 1px solid white;
+    box-sizing: border-box;
+    background-color: #003366;
+    color: white;
+}
+.contact-form input[type="text"]::placeholder,
+.contact-form input[type="tel"]::placeholder {
+    color: white;
+}
+
+iframe {
+    margin: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    padding: 10px;
+    text-align: right;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+}
